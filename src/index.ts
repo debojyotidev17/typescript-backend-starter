@@ -19,3 +19,5 @@ class User implements Person {
         console.log("hello world");
     }
 }
+
+const obj = new User();
