@@ -1,5 +1,8 @@
-function greet(person: string): void { 
-    console.log(`hello ${person}`);
+enum Role {
+    Admin,
+    User,
 }
 
-greet("debo");
+let currentRole: Role = Role.User;
+
+console.log(currentRole);
