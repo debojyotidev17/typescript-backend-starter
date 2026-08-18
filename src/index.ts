@@ -1,8 +1,21 @@
-enum Role {
-    Admin,
-    User,
+interface Person {
+    name: string;
+    age: number;
+    greet(): void;
 }
 
-let currentRole: Role = Role.User;
+class User implements Person {
+    constructor(
+        public name = "Debo",
+        public age = 20,
+        public bio = "hello"
+    ) {}
 
-console.log(currentRole);
+    greet() {
+        console.log(`Hello, I am ${this.name}`);
+    }
+
+    helloWorld() { 
+        console.log("hello world");
+    }
+}
