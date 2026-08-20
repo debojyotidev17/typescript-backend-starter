@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.use('/ping', pingRouter);
+
 app.use(genericErrorHandler);
 
 app.listen(serverConfig.PORT, () => { 
