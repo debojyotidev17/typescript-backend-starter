@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { z } from "zod";
+
 /**
  * @params schema = zod schema to validate the req body
  * @returns = middleware function to validate the req body
