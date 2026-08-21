@@ -7,7 +7,7 @@ A minimal starter template for building backend applications with Express and Ty
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/singhsanket143/Express-Typescript-Starter-Project.git <ProjectName>
+git clone https://github.com/debojyotidev17/typescript-backend-starter.git <ProjectName>
 ```
 
 ### 2. Move into the project
