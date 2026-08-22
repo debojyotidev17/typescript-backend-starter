@@ -31,7 +31,7 @@ echo PORT=3000 >> .env
 ### 5. Start the server
 
 ```bash
-npm run dev
+npm start
 ```
 
 The server will run on `http://localhost:3000`.
